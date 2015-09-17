@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Cv_Hubert_Bullen</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="street">Achterenbergstraat 56</string>
+    <string name="title_general"><u>Hubert Bullen</u></string>
+    <string name="city">3070 Kortenberg</string>
+    <string name="gsm"><b>GSM:</b> +32 470 52 17 16</string>
+    <string name="email"><b>E-MAIL:</b> Hubert_99_bullen@hotmail.com</string>
+    <string name="github"><b>GITHUB:</b> Github.com/Hubert-Bullen</string>
+    <string name="dob">20 FEBRUARI 1991</string>
+
+
+    <string name="date4">2015-2015</string>
+    <string name="course4">MOBIELE APPLICATIES, CEVORA IN ASSOCIATIE MET REALDOLMEN (B)</string>
+    <string name="date3">2011-2012</string>
+    <string name="course3">TOEGEPASTE INFORMATICA, HUB BRUSSEL (B)</string>
+    <string name="date2">2009-2014</string>
+    <string name="course2">BACHELOR JAPANOLOGIE, KU LEUVEN (B) - Studies Onderbroken</string>
+    <string name="date1">2003-2009</string>
+    <string name="course1">LATIJN/WETENSCHAPPEN, KA HALLE (B)</string>
+    <string name="title_general_not_underlined">Hubert Bullen</string>
+
+</resources>
