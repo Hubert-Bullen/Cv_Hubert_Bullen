@@ -142,7 +142,8 @@ public class MainActivity extends AppCompatActivity {
     // Drawer setup
     private void addDrawerItems() {
         String[] osArray = getResources().getStringArray(R.array.navBar_array) ;
-        //mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, osArray);
+        // Array without Icons.
+        // mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, osArray);
         mAdapter = new CustomNavBarListAdapter(this, osArray, icons);
         mDrawerList.setAdapter(mAdapter);
     }
@@ -189,5 +190,6 @@ public class MainActivity extends AppCompatActivity {
 
         recreate();
     }
+
 
 }
