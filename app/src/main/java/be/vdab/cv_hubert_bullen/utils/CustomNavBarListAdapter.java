@@ -30,7 +30,7 @@ public class CustomNavBarListAdapter extends ArrayAdapter<String> {
 
     public View getView(int position,View view,ViewGroup parent) {
         LayoutInflater inflater=context.getLayoutInflater();
-        View rowView=inflater.inflate(R.layout.navbarlist_layout, null,true);
+        View rowView = inflater.inflate(R.layout.navbarlist_layout, null,true);
 
         TextView txtTitle = (TextView) rowView.findViewById(R.id.nav_text);
         ImageView imageView = (ImageView) rowView.findViewById(R.id.nav_icon);

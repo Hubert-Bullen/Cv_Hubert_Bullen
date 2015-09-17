@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="navBar_array">`
-        <item>CV Hubert Bullen</item>
-        <item>General Information</item>
-        <item>Studies and Courses</item>
-        <item>IT knowledge</item>
-        <item>Languages</item>
+        <item>Algemene Informatie</item>
+        <item>Studies en Cursussen</item>
+        <item>IT kennis</item>
+        <item>Talen</item>
         <item>Hobbies</item>
-        <item>Working Experience</item>
+        <item>Werkervaring</item>
     </string-array>
 
 
