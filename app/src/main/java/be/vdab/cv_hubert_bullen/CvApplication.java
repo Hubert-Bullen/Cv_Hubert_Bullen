@@ -2,6 +2,7 @@ package be.vdab.cv_hubert_bullen;
 
 import android.app.Application;
 
+import be.vdab.cv_hubert_bullen.utils.PreferencesHelper;
 import timber.log.Timber;
 
 /**
@@ -16,5 +17,8 @@ public class CvApplication extends Application {
         if (BuildConfig.DEBUG) {
             Timber.plant(new Timber.DebugTree());
         }
+
+        // Setting this back to General Info fragment after closing app.
+        PreferencesHelper.setCurrentFragment(this, 0);
     }
 }

@@ -60,10 +60,11 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
 
-        // Starting with GeneralInfo Fragment
-        Fragment fr = FragmentOneGeneralInfo.createNewFragmentOne();
+        // Starting with last fragment or when starting up with GeneralInfo Fragment
         titles = getResources().getStringArray(R.array.navBar_array);
-        getSupportActionBar().setTitle(titles[0]);
+        Fragment fr = getItem(PreferencesHelper.getCurrentFragment(this));
+        getSupportActionBar().setTitle(titles[PreferencesHelper.getCurrentFragment(this)]);
+
         FragmentManager fm = getFragmentManager();
         FragmentTransaction fragmentTransaction = fm.beginTransaction();
         fragmentTransaction.replace(R.id.content_frame, fr);
@@ -78,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
         mDrawerList = (ListView)findViewById(R.id.nav_list);
         addDrawerItems();
 
+        //Nav Drawer on click.
         mDrawerList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
@@ -89,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 FragmentTransaction fragmentTransaction = fm.beginTransaction();
                 fragmentTransaction.replace(R.id.content_frame, fr);
                 fragmentTransaction.commit();
+                PreferencesHelper.setCurrentFragment(MainActivity.this,position);
             }
         });
 
