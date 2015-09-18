@@ -32,7 +32,7 @@
 
         <TextView
             android:id="@+id/nav_header_text"
-            android:layout_width="wrap_content"
+            android:layout_width="145dp"
             android:layout_height="match_parent"
             android:textSize="24sp"
             android:padding="5dp"

@@ -26,6 +26,7 @@
     <string name="action_language">Language</string>
     <string name="language_en">English</string>
     <string name="language_nl">Dutch</string>
+    <string name="language_jp">Japanese</string>
     <string name="title_general_not_underlined">Hubert Bullen</string>
 
 </resources>

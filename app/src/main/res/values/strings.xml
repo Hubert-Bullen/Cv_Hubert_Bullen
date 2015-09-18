@@ -28,6 +28,7 @@
     <string name="action_language">Taal</string>
     <string name="language_nl">Nederlands</string>
     <string name="language_en">Engels</string>
+    <string name="language_jp">Japans</string>
 
 
 </resources>

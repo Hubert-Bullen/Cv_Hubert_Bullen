@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navBar_array">
+        <item>個人情報</item>
+        <item>学業</item>
+        <item>情報学の知識</item>
+        <item>言語</item>
+        <item>趣味</item>
+        <item>働く経験</item>
+    </string-array>
+    
+</resources>

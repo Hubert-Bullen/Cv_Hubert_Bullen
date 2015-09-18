@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Cv_Hubert_Bullen</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">設定</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="street">〒3070 Kortenberg</string>
+    <string name="city">Achterenbergstraat 56</string>
+    <string name="gsm"><b>電話番号:</b> +32 470 52 17 16</string>
+    <string name="email"><b>メール:</b> Hubert_99_bullen@hotmail.com</string>
+    <string name="github"><b>GITHUB:</b> Github.com/Hubert-Bullen</string>
+    <string name="dob"><b>出生年月日:</b>　年１９９１月０２日２０</string>
+
+
+    <string name="date4">年2015-年2015</string>
+    <string name="course4">スマホのアプリケーション開発、ＶＤＡＢとＲＥＡＬＤＯＬＭＥＮの組合 (ベルギー)</string>
+    <string name="date3">年2011-年2012</string>
+    <string name="course3">情報学, ブラッセル大学 (ベルギー)</string>
+    <string name="date2">年2009-年2014</string>
+    <string name="course2">日本語の学士号, ルーバン (ベルギー) - 保留しました</string>
+    <string name="date1">年2003-年2009</string>
+    <string name="course1">ラテン語・科学, 高校 ハレ (ベルギー)</string>
+    <string name="action_language">言語</string>
+    <string name="language_en">英語</string>
+    <string name="language_nl">オランダ語</string>
+    <string name="language_jp">日本語</string>
+    <string name="title_general_not_underlined">ブッレン・ヒューベルト</string>
+
+</resources>

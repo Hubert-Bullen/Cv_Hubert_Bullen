@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
 
     private final static String LANGUAGE_NL = "nl";
     private final static String LANGUAGE_EN = "en";
+    private final static String LANGUAGE_JP = "jp";
 
 
     @Override
@@ -134,6 +135,9 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.radio_en) {
             PreferencesHelper.setLanguagePreference(this, LANGUAGE_EN);
             setLocale(LANGUAGE_EN);
+        } else if (id == R.id.radio_jp){
+            PreferencesHelper.setLanguagePreference(this, LANGUAGE_JP);
+            setLocale(LANGUAGE_JP);
         }
         // drawer
         return mDrawerToggle.onOptionsItemSelected(item) || super.onOptionsItemSelected(item);

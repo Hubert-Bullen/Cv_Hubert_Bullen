@@ -15,6 +15,7 @@ public class PreferencesHelper {
 
     private final static String LANGUAGE_NL = "nl";
     private final static String LANGUAGE_EN = "en";
+    private final static String LANGUAGE_JP = "jp";
 
     private final static String FRAGMENT = "Home";
 
